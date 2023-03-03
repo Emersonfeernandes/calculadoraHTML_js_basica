@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style.css">
+ 
+    <title>Calculadora</title>
+</head>
+<body>
+    <header class="box-title">
+        <h1 class="title">Calculadora</h1>
+    </header>
+    
+
+    <main>   
+        <div class="input-to-calculo">
+            <label for="">Número A</label>
+            <input id="numberA" type="text" value="3">
+            <label for="">Número B</label>
+            <input id="numberB" type="text" value="2">
+            <button id="button-calcular">Calcular</button>
+        </div>
+           
+        <table class="tabela">
+            <tr>
+                <td>
+                    <p>Soma</p><p id="result-soma">5</p>
+                </td>
+                <td>
+                    <p>Subtração A - B</p><p id="subtracao-A-B">1</p>
+                </td>
+                <td>
+                    <p>Subtração B - A</p><p id="subtracao-B-A">-1</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td><p>Multiplicação</p><p id="multi">5</p></td>
+                <td><p>Divisão A/B</p><p id="divisaoAB">1</p></td>
+                <td><p>Divisão B/A</p><p id="divisaoBA">-1</p></td>
+            </tr>
+            <tr>
+                <td><p>Potência de A na base B</p><p id="pontenciaAB">5</p></td>
+                <td><p>Potência de B na base A</p><p id="pontenciaBA">1</p></td>
+                <td><p>Raiz quadrada de A</p><p id="raiz-quadrada-A">-1</p></td>
+            </tr>
+            <tr>
+                <td><p>Raiz quadrada de B</p><p id="raiz-quadrada-B">5</p></td>
+                <td><p>Fatorial de A</p><p id="fatorial-A">1</p></td>
+                <td><p>Fatorial de B</p><p id="fatorial-B">-1</p></td>
+            </tr>
+            <tr>
+                <td><p>Porcentagem de A em relação a B</p><p id="porcentagemA">5</p></td>
+                <td><p>Porcentagem de B em relação a A</p><p id="porcentagemB">1</p></td>
+                <td><p>Média</p><p id="media">-1</p></td>
+            </tr>
+        </table>
+    </main>
+
+
+    <script defer src="./js/script.js"></script>
+</body>
+</html>
